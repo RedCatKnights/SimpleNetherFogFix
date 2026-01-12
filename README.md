@@ -9,8 +9,7 @@ SimpleNetherFogFixはGeyserのnether-roof-workaroundをtrueにした際にネザ
 - このコードはGeyserExtrasにある霧を修正するとゆう機能のコードを解析してネザー全体の霧を修正する機能だけを抽出してシンプルにまとめたExtensions(プラグイン)です。
 - このExtensionsを制作する際にもとになったコードを制作したGeyserExtrasの開発者に感謝します。
 
-- GeyserExtras
-- https://github.com/GeyserExtras/GeyserExtras
+- [GeyserExtras](https://github.com/GeyserExtras/GeyserExtras)
 
 ## コードの概要簡単な説明
 このコードはGeyserExtras 2.0.0-BETA-11 のcore/src/main/java/dev/letsgoaway/geyserextras/core/ExtrasPlayer.javaの216行目〜218行目にあるコード
