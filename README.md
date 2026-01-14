@@ -2,9 +2,9 @@
 SimpleNetherFogFixはGeyserのnether-roof-workaroundをtrueにした際にネザー全体が同じ赤い霧になるのをバイオームごとに異なる霧が発生する(ネザーデフォルトの挙動になる)ようにするシンプルなExtensionsです。
 
 このプラグインは以下の環境でテストされました。
-velocity-3.4.0-SNAPSHOT-559
-Geyser バージョン 2.9.2-b1031
-paper-1.21.10-127
+- velocity-3.4.0-SNAPSHOT-559
+- Geyser バージョン 2.9.2-b1031
+- paper-1.21.10-127
 
 ## ！！注意事項！！
 - このコードはAIのGeminiに政策を手伝ってもらいましたその点をご理解ください。
