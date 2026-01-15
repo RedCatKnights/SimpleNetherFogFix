@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.example"
-version = "1.0.0"
+version = "2.1.0"
 
 repositories {
     mavenCentral()
@@ -18,4 +18,5 @@ dependencies {
 
 tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
+
 }
