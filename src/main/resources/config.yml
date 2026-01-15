@@ -1,0 +1,30 @@
+# ============================================
+# SimpleNetherFogFix Configuration
+# ============================================
+
+# [Insurance] Periodic Check Interval (seconds)
+# Once it disappears, it will persist even if you move to another biome, so a longer interval (30-60) is fine.
+#Default: 30 (0 disables)
+# 【保険】定期チェックの間隔（秒）
+# 一度消えればバイオーム移動しても維持されるため、長め（30〜60）でOKです。
+# デフォルト:30 (0で無効)
+check-interval-seconds: 30
+
+# 1000ms = 1s / 1500ms = 1.5s
+# 1000ms = 1秒 / 1500ms = 1.5秒
+
+# [Immediate] The time (in milliseconds) to wait after logging in before the fog disappears.
+# If the server is slow, set this to a slightly longer time.
+# Default: 1500 (0 disables)
+# 【即時】ログインしてから霧を消すまでの待ち時間（ミリ秒）
+# サーバーが重い場合は少し長く設定してください。
+# デフォルト:1500 (0で無効)
+login-delay-milliseconds: 1500
+
+# [Immediate] The amount of time (in milliseconds) to wait before the fog disappears after entering the Nether.
+# Adjusted to take into account the loading time immediately after portal passage.
+# Default: 1500 (0 disables)
+# 【即時】ネザーに入ってから霧を消すまでの待ち時間（ミリ秒）
+# ポータル移動直後の読み込み時間を考慮して調整します。
+# デフォルト:1500 (0で無効)
+dimension-change-delay-milliseconds: 1500
